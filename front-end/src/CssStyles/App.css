@@ -1,0 +1,359 @@
+#myBtn{
+  width: 50px;
+}
+#navItemText,#navbarDropdownMenuLink{
+  font-size: 15px;
+  cursor: pointer;
+}
+#userBtn{
+  border-radius: 80px;
+}
+
+#loginPage {
+  height: 100vh;
+ /* background-image: url('../assets/bg design.jpg'); */
+ background-color: rgb(239, 242, 247);
+  background-size: cover;
+}
+
+
+#loginCard {
+  
+  border-radius: 8px;
+  background-color:white;
+  display: block;
+  text-align: center;
+  overflow-y: auto;
+  box-shadow: rgba(128, 128, 128, 0.342) 0px 0px 10px;
+}
+.card-shadow{
+  box-shadow: rgba(128, 128, 128, 0.466) 0px 0px 10px;
+}
+.inside-card-shadow{
+  overflow-y: auto;
+  box-shadow: rgba(56, 54, 54, 0.466) 0px 0px 10px;
+}
+.shadow{
+  box-shadow: rgba(56, 54, 54, 0.466) 0px 0px 10px;
+  overflow-y: auto;
+}
+.shadow-only-card{
+  box-shadow: rgba(56, 54, 54, 0.466) 0px 0px 10px;
+  height: 50vh;
+  overflow-y: auto;
+}
+.searchArea {
+
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+}
+.editBtnCard{
+background-color: hwb(120 85% 12%);
+box-shadow: rgba(161, 153, 153, 0.466) 0px 0px 10px;
+text-align: center;
+justify-content: center;
+}
+.editBtnCard:hover{
+cursor: pointer;
+scale: 1.005;
+transition: 0.1s;
+}
+.editBtnCard:active{
+scale: 0.97;
+transition: 0.1s;
+cursor: pointer;
+background-color: hwb(120 63% 34%);
+}
+.homePageCradBtns{
+  background-color: hwb(120 85% 12%);
+box-shadow: rgba(5, 4, 4, 0.466) 0px 0px 10px;
+text-align: center;
+justify-content: center;
+}
+.patientDetails{
+background-color: hwb(120 85% 12%);
+}
+.homePageCradBtns:hover{
+cursor: pointer;
+scale: 1.005;
+transition: 0.1s;
+}
+.homePageCradBtns:active{
+scale: 0.99;
+transition: 0.1s;
+cursor: pointer;
+}
+.pdInputs{
+padding-left: 6px;
+max-height: 24px;
+border-radius: 4px;
+border: 0px;
+
+}
+.pdInputs:focus{
+border-color: #adaaaa;
+}
+.ResultsCrad{
+  box-shadow: rgba(56, 54, 54, 0.466) 0px 0px 10px;
+  height: 46.5vh;
+  margin-top: 5px;
+  overflow-y: auto;
+}
+.form-border{
+  border: 0.1px solid black;
+}
+.box-count-card{
+  
+
+  background-color: rgb(241, 241, 241);
+  border: 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 40px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.navbar-shadow{
+  box-shadow: rgba(128, 128, 128, 0.342) 0px 0px 10px;
+}
+.login-footer{
+  height: 10vh;
+}
+
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.full-width{
+  width: 100%;
+}
+.loginLogoSpaces{
+  margin-block-start: 10px;
+  margin-block-end: 20px;
+  width: 60px;
+  height: 60px;
+  animation: rotate 5s linear infinite;
+ 
+}
+.rotate{
+  animation: rotate 5s linear infinite;
+}
+
+
+#loginInputs{
+  border-radius: 5px;
+ 
+}
+
+#loginBtn{
+  margin-top: 20px;
+  width: 100%;
+}
+#signinBtn{
+  margin-top: 10px;
+  width: 100%;
+}
+
+#link{
+  color: blue;
+  cursor: pointer;
+  
+}
+.hoverEffact:hover{
+  cursor: pointer;
+  
+}
+.clickableIcons{
+  cursor: pointer;
+  
+}
+.clickableIcons:hover{
+  scale: 0.9;
+ 
+}
+.logoutBtn{
+  width: 100%;
+}
+
+.profCardIcon{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+.offcanvas-below-navbar{
+  top: 59px;
+}
+.custom-size{
+  font-size: 24px;
+}
+
+.backImage{
+  background-image: url('../assets/bg design.jpg');
+  
+  background-size: cover; 
+  background-position: center; 
+}
+.cardBackColor{
+  background-color: rgba(240, 248, 255, 0.829);
+}
+.pageLayout{
+ height: 100vh;
+ border: 0;
+ border-radius: 0;
+ padding: 0;
+ background-color: rgb(239, 242, 247);
+ background-image: url('../assets/bg design.jpg');
+ margin: 0;
+ background-size: cover; 
+ background-position: center; 
+ 
+}
+.belowNavbarCard{
+  background-color: rgba(255, 255, 255, 0);
+  overflow: auto;
+  border: 0;
+  padding: 0; 
+}
+
+.at-theMiddle{
+  display: flex;
+  align-items: center;
+}
+
+.drugItem{
+  padding-left: 11px;
+  text-align: start;
+  cursor: pointer;
+
+}
+.drugItem:hover{
+  background-color: #adaaaa;
+}
+.drop{
+top: 3.8rem;
+width: 100%;
+max-height: 150px;
+overflow-y: auto;
+box-shadow: 0px 10px 20px #adaaaa;
+background-color: white;
+padding-inline: 0;
+padding-top: 0px;
+padding-bottom: 5px;
+position: absolute;
+border-radius: 7px;
+z-index: 10;
+}
+.dropbtn{
+cursor: pointer;
+padding-inline: 10px;
+  width: 100%;
+}
+.dropbtn:hover{
+   background-color: #6d6868;
+   color: white;
+}
+.roundBtn{
+  border-top-right-radius: 10px;
+  border-bottom-right-radius: 10px;
+}
+.inputBackground{
+  background-color: rgb(241, 241, 241);;
+}
+
+.complainViewCard{
+  background-color:  rgb(239, 242, 247);;
+}
+
+.btn-end{
+display:flex;
+justify-content:end;
+}
+  
+  .page-bg {
+    height: 100vh;
+    background-color: lightblue;
+  }
+
+.card{
+  background-color: rgba(255, 255, 255, 0.864);
+}
+.footer {
+  display: flex;
+  align-items: center;
+  font-size: smaller;
+  color: #555; 
+}
+
+.footer img {
+  height: 20px;
+  margin-right: 5px;
+  vertical-align: middle; 
+}
+.tooltip {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #ccc;
+  background-color: #f9f9f9;
+}
+
+.tooltip img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  max-width: 100%;
+  max-height: 100%;
+  object-fit: contain;
+}
+/* Style for the image container */
+.image-container {
+  position: absolute;
+  top: 8%;           /* Adjust this value to move the element vertically */
+  left: 50%;          /* Horizontally center the container */
+  transform: translateX(-50%); /* Shift the container back to center */
+}
+
+/* Optional styling for the image */
+.image-container img {
+  max-width: 100%;    /* Prevent the image from exceeding its container width */
+  height: auto;       /* Maintain aspect ratio of the image */
+}
+
+.scalup:hover{
+  scale: 1.01;
+  transition: 0.2s;
+}
+.scalup:active{
+  scale: 1;
+}
+
+.small-col{
+  width:4%;
+  background-color:rgb(255, 255, 255);
+  padding: 0;
+
+}
+.flex-grow-1{
+  width:96%;
+  padding: 0;
+}
+
+.navbarlogo {
+  max-width: 20px;
+  max-height: 20px;
+  cursor: pointer;
+}
+.navbarlogo:hover{
+  scale: 1.07;
+}
+.navbarlogo:focus{
+  scale: 1;
+}
